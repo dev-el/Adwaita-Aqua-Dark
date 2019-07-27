@@ -1,6 +1,5 @@
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
 /* this will import a default Adwaita Dark, and above you can expand things!*/
-/* copy the folder "myAdwaita" to "/usr/share/themes" and select it from tweak tool!*/
 /* gtk-2.0 folder is an exact copy of Adwaita-Dark needed for GTK2 things */
 
 
