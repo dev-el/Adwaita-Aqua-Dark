@@ -1,0 +1,173 @@
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+/* this will import a default Adwaita Dark, and above you can expand things!*/
+/* copy the folder "myAdwaita" to "/usr/share/themes" and select it from tweak tool!*/
+/* gtk-2.0 folder is an exact copy of Adwaita-Dark needed for GTK2 things */
+
+
+
+headerbar.default-decoration button.titlebutton,
+.titlebar.default-decoration button.titlebutton,
+button.tittlebutton {
+    margin-right: 1px;
+    min-width: 0;  
+    min-height: 0;
+    box-shadow: none; 
+    background-image: none;
+    border-color: transparent;
+    padding: 3px;
+    border-radius: 9px;
+}
+  
+headerbar button.titlebutton,
+.titlebar button.titlebutton {
+    padding: 3px;
+    margin-right: 3px;  
+    min-height: 0;
+    box-shadow: none;
+    border-color: transparent;
+    background-color: transparent;
+    background-image: none;
+    min-width: 0;
+    border-radius: 9px;
+}
+  
+window.ssd headerbar.titlebar button.titlebutton  {
+    padding: 3px;
+    margin-right: 1px;
+    min-height: 0;
+    min-width: 0;
+    border-radius: 9px;
+}
+
+headerbar button.titlebutton:first-child, button.titlebutton:first-child {
+    margin-left: 6px;
+}
+
+headerbar button.titlebutton:last-child, button.titlebutton:last-child {
+    margin-right: 6px;
+}
+
+window.ssd headerbar.titlebar {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+headerbar button.titlebutton:hover,
+.titlebar button.titlebutton:hover,
+headerbar button.titlebutton:active,
+headerbar button.titlebutton:checked,
+.titlebar button.titlebutton:active,
+.titlebar button.titlebutton:checked {
+    box-shadow: none;
+    color: transparent;
+    border-color: transparent;
+    background-image: none;
+    background-color: transparent; 
+}
+
+headerbar button.titlebutton.restore,
+headerbar button.titlebutton.close,
+headerbar button.titlebutton.maximize,
+headerbar button.titlebutton.minimize,
+.titlebar button.titlebutton.close,
+.titlebar button.titlebutton.restore,
+.titlebar button.titlebutton.maximize,
+.titlebar button.titlebutton.minimize {
+    box-shadow: none;
+    color: transparent;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-width: 0;
+    
+}
+
+headerbar button.titlebutton.restore:backdrop,
+headerbar button.titlebutton.close:backdrop,
+headerbar button.titlebutton.maximize:backdrop,
+headerbar button.titlebutton.minimize:backdrop,
+.titlebar button.titlebutton.restore:backdrop,
+.titlebar button.titlebutton.close:backdrop,
+.titlebar button.titlebutton.maximize:backdrop,
+.titlebar button.titlebutton.minimize:backdrop {
+    opacity: 1;
+}
+
+headerbar button.titlebutton.close,
+.titlebar button.titlebutton.close {
+    background-image: url("title-buttons-dark/titlebutton-close-dark.svg");
+}
+
+headerbar button.titlebutton.close:backdrop,
+.titlebar button.titlebutton.close:backdrop {
+    background-image: url("title-buttons-dark/titlebutton-backdrop-dark.svg");
+}
+
+headerbar button.titlebutton.close:hover,
+.titlebar button.titlebutton.close:hover {
+  background-image: url("title-buttons-dark/titlebutton-close-hover-dark.svg"); }
+
+headerbar button.titlebutton.close:active,
+.titlebar button.titlebutton.close:active {
+
+  background-image: url("title-buttons-dark/titlebutton-close-active-dark.svg"); }
+
+headerbar button.titlebutton.maximize,
+.titlebar button.titlebutton.maximize {
+
+  background-image: url("title-buttons-dark/titlebutton-maximize-dark.svg"); }
+
+headerbar button.titlebutton.maximize:backdrop,
+.titlebar button.titlebutton.maximize:backdrop {
+
+  background-image: url("title-buttons-dark/titlebutton-backdrop-dark.svg"); }
+
+headerbar button.titlebutton.maximize:hover,
+.titlebar button.titlebutton.maximize:hover {
+
+  background-image: url("title-buttons-dark/titlebutton-maximize-hover-dark.svg"); }
+
+headerbar button.titlebutton.maximize:active,
+.titlebar button.titlebutton.maximize:active {
+
+  background-image: url("title-buttons-dark/titlebutton-maximize-active-dark.svg"); }
+
+headerbar button.titlebutton.minimize,
+.titlebar button.titlebutton.minimize {
+
+  background-image: url("title-buttons-dark/titlebutton-minimize-dark.svg");}
+
+headerbar button.titlebutton.minimize:backdrop,
+.titlebar button.titlebutton.minimize:backdrop {
+
+  background-image: url("title-buttons-dark/titlebutton-backdrop-dark.svg"); }
+
+headerbar button.titlebutton.minimize:hover,
+.titlebar button.titlebutton.minimize:hover {
+
+  background-image: url("title-buttons-dark/titlebutton-minimize-hover-dark.svg"); }
+
+headerbar button.titlebutton.minimize:active,
+.titlebar button.titlebutton.minimize:active {
+
+  background-image: url("title-buttons-dark/titlebutton-minimize-active-dark.svg");} 
+
+headerbar button.titlebutton.restore,
+.titlebar button.titlebutton.restore {
+
+  background-image: url("title-buttons-dark/titlebutton-maximize-dark.svg"); }
+
+headerbar button.titlebutton.restore:backdrop,
+.titlebar button.titlebutton.restore:backdrop {
+
+  background-image: url("title-buttons-dark/titlebutton-backdrop-dark.svg"); }
+
+headerbar button.titlebutton.restore:hover,
+.titlebar button.titlebutton.restore:hover {
+
+  background-image: url("title-buttons-dark/titlebutton-maximize-hover-dark.svg"); }
+
+headerbar button.titlebutton.restore:active,
+.titlebar button.titlebutton.restore:active {
+
+  background-image: url("title-buttons-dark/titlebutton-maximize-active-dark.svg"); }
